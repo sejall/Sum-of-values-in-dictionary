@@ -1,0 +1,11 @@
+
+
+# program to find sum of values in a dictionary
+
+#enter the dictionary entries from keyboard
+
+dict = eval(input("enter elements in {}: "))
+
+#find sum of values 
+s = sum(dict.values())
+print('sum of values in the dictionary : ', s)
